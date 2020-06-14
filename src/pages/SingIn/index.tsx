@@ -28,6 +28,7 @@ const SingIn: React.FC = () => (
           <Button name="loginSubmit" type="submit">
             Entrar
           </Button>
+          <a href="login">Esqueci minha senha</a>
         </form>
         <a href="login">
           <FiLogIn />
