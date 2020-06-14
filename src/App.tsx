@@ -1,11 +1,13 @@
 import React from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header" />
-    </div>
-  )
-}
+import GlobalStyle from './styles/globo'
+import SingIn from './pages/SingIn/index'
+
+const App: React.FC = () => (
+  <>
+    <SingIn></SingIn>
+    <GlobalStyle />
+  </>
+)
 
 export default App
